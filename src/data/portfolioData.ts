@@ -1,5 +1,16 @@
 import type { ExperienceItem, Project, SkillsData } from "@/types/portfolio";
-
+import groceries1 from '../assets/groceries-main.png';
+import groceries2 from '../assets/groceries-list.png';
+import groceries3 from '../assets/groceries-inventory.png';
+import book1 from '../assets/book-main.png';
+import book2 from '../assets/book-explore.png';
+import book3 from '../assets/book-detail.png';
+import finance1 from '../assets/finance-main.png';
+import finance2 from '../assets/finance-transaction.png';
+import finance3 from '../assets/finance-planner.png';
+import travel1 from '../assets/travel-main.png';
+import travel2 from '../assets/travel-detail.png';
+import travel3 from '../assets/travel-booking.png';
 
 export const skillsData: SkillsData = {
   frontend: ['HTML', 'CSS', 'JavaScript', 'React', 'TypeScript', 'Tailwind CSS'],
@@ -13,9 +24,9 @@ export const portfolioData: Project[] = [
     title: "PantryPal - Aplikasi Manajemen Tugas & Groceries",
     tech: ["React.js", "Node.js", "PostgreSQL"],
     images: [
-      "src/assets/groceries-main.png",
-      "src/assets/groceries-list.png",
-      "src/assets/groceries-inventory.png"
+      groceries1,
+      groceries2,
+      groceries3
     ],
     star: {
       situation: "Banyak aplikasi daftar belanjaan terasa lambat karena setiap kali pengguna mencentang barang yang sudah dibeli, aplikasi harus memuat ulang (reload) seluruh halaman untuk memperbarui statusnya.",
@@ -29,9 +40,9 @@ export const portfolioData: Project[] = [
     title: "LuminaBooks - Aplikasi Rak Buku & Goodreads Clone",
     tech: ["React.js", "Node.js", "PostgreSQL", "Tailwind CSS", "REST API"],
     images: [
-      "src/assets/book-main.png",
-      "src/assets/book-explore.png",
-      "src/assets/book-detail.png"
+      book1,
+      book2,
+      book3
     ],
     star: {
       situation: "Pecinta buku sering kesulitan melacak buku apa saja yang sedang mereka baca (Currently Reading), koleksi yang mereka miliki (Your Bookshelf), serta mencari rekomendasi buku baru berdasarkan kategori tertentu dalam satu aplikasi yang ringkas.",
@@ -45,9 +56,9 @@ export const portfolioData: Project[] = [
     title: "FinFlow - Aplikasi Pengeluar & Money Tracker",
     tech: ["React.js", "Node.js", "PostgreSQL", "Tailwind CSS", "REST API"],
     images: [
-      "src/assets/finance-main.png",
-      "src/assets/finance-planner.png",
-      "src/assets/finance-transaction.png"
+      finance1,
+      finance2,
+      finance3
     ],
     star: {
       situation: "Banyak orang kesulitan mengontrol pengeluaran bulanan karena catatan keuangan mereka tersebar di berbagai tempat (seperti uang tunai dan rekening bank). Selain itu, tanpa adanya grafik visual yang jelas, pengguna sulit melihat tren pengeluaran mingguan mereka secara instan.",
@@ -61,9 +72,9 @@ export const portfolioData: Project[] = [
     title: "WanderLust - Aplikasi Pemesanan Tiket Wisata",
     tech: ["React.js", "Node.js", "PostgreSQL", "Tailwind CSS", "REST API"],
     images: [
-      "src/assets/travel-main.png",
-      "src/assets/travel-detail.png",
-      "src/assets/travel-booking.png"
+      travel1,
+      travel2,
+      travel3
     ],
     star: {
       situation: "Banyak pelancong kesulitan menemukan destinasi wisata lokal tersembunyi karena informasi yang tersebar dan tidak terstruktur. Selain itu, sistem pemesanan konvensional sering kali gagal membatasi jumlah pengunjung, menyebabkan penumpukan kapasitas di lokasi wisata pada hari libur.",

@@ -1,4 +1,5 @@
 import React from 'react';
+import profile from '../assets/profile.jpg';
 
 const Hero: React.FC = () => {
   return (
@@ -38,7 +39,7 @@ const Hero: React.FC = () => {
           <div className="p-3 bg-stone-100/60 border border-stone-200/60 rounded-sm shadow-xs">
             <div className="w-60 md:w-72 aspect-4/5 overflow-hidden bg-stone-200 rounded-sm">
               <img 
-                src="src/assets/profile.jpg" 
+                src={profile} 
                 alt="Gallant Gibran" 
                 className="w-full h-full object-cover opacity-90 group-hover:opacity-100 transition-all duration-500 transform group-hover:scale-105"
               />
