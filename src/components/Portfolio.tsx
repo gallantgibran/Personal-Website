@@ -16,8 +16,13 @@ const Portfolio: React.FC = () => {
 
   return (
     <section id="portfolio" className="py-24 bg-stone-50 border-b border-stone-200/40">
-      <div className="max-w-3xl mx-auto px-6 space-y-20">
-        
+      <div className="max-w-3xl mx-auto px-6 space-y-16">
+        {/* Judul */}
+        <div className="text-center pb-4">
+          <h2 className="text-2xl font-normal text-stone-800 tracking-tight">Portfolio</h2>
+          <p className="text-stone-400 font-light text-xs mt-2.5">Kumpulan proyek aplikasi web yang telah saya kembangkan</p>
+        </div>
+
         {portfolioData.map((project) => (
           <div key={project.id} className="space-y-6">
             
